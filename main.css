@@ -1,2 +1,112 @@
 header {
-  text-align: center; }
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  background-image: url("http://weknowyourdreamz.com/images/wave/wave-02.jpg");
+  height: 450px; }
+  header .title {
+    clear: both; }
+    header .title h1 {
+      font-size: 7em;
+      margin: 1.3em 0;
+      text-align: center;
+      color: #FFF; }
+    header .title h3 {
+      font-size: 1.5em;
+      margin: -6.33em 0;
+      text-align: center;
+      color: #FFF; }
+  header .header-left {
+    float: left;
+    font-family: 'Oxygen', sans-serif;
+    color: #FFF; }
+  header .header-left ul {
+    list-style-type: none;
+    float: left; }
+    header .header-left ul li {
+      display: inline-block;
+      margin: -27px 0px; }
+    header .header-left ul img {
+      border-radius: 50%;
+      margin: -19px 2px; }
+  header .header-right {
+    list-style-type: none;
+    float: right;
+    font-family: 'Oxygen', sans-serif;
+    color: #FFF; }
+  header .header-right ul {
+    float: right; }
+    header .header-right ul li {
+      display: inline-block;
+      padding-right: 20px; }
+    header .header-right ul img {
+      border-style: none;
+      padding-left: 0px; }
+
+section {
+  margin: 0 135px;
+  padding: 0;
+  display: inline-block;
+  width: 35%;
+  font-family: 'Rubik', sans-serif; }
+  section .main-content h1 {
+    font-size: 3em;
+    margin: 0.67em 50px;
+    padding-top: 11px;
+    text-align: center;
+    color: #031C63; }
+  section .smiley ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px 0px; }
+    section .smiley ul li img {
+      padding: 6px;
+      margin: -15px 0px; }
+    section .smiley ul li h5#anne {
+      margin: 0px 13px; }
+    section .smiley ul li h5#on {
+      margin: 0px 13px; }
+    section .smiley ul li h5#monday {
+      margin: 0px 13px; }
+  section .woah h3 {
+    border-left: gray solid 1px;
+    text-align: center;
+    margin: -7px auto;
+    padding: 16px;
+    font-size: 1.5em;
+    font-weight: lighter; }
+  section .sharing ul {
+    list-style-type: none;
+    display: flex; }
+    section .sharing ul li {
+      margin: 0px 56px; }
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 23%;
+  margin-top: 79px;
+  font-family: 'Rubik', sans-serif; }
+  aside #bio-image {
+    margin-left: 110px;
+    height: 68px; }
+  aside h4 {
+    text-align: center; }
+  aside #social-media {
+    list-style-type: none;
+    display: flex; }
+  aside li {
+    margin: 0 auto; }
+  aside ul#advertisement {
+    float: right;
+    margin: 0px 0px 72px 0px;
+    list-style-type: none; }
+  aside h6 {
+    float: right;
+    margin: 0px;
+    font-weight: lighter; }
+  aside #side-header h5 {
+    margin: 0 auto;
+    font-size: 1em; }

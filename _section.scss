@@ -1,0 +1,49 @@
+section {
+  margin: 0 135px;
+  padding: 0;
+  display: inline-block;
+  width: 35%;
+  font-family: 'Rubik', sans-serif;
+
+  .main-content h1 {
+    font-size: 3em;
+    margin: 0.67em 50px;
+    padding-top: 11px;
+    text-align: center;
+    color: #031C63;
+  }
+  .smiley ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px 0px;
+    li img {
+      padding: 6px;
+      margin: -15px 0px;
+    }
+    li h5#anne {
+          margin: 0px 13px;
+    }
+    li h5#on {
+          margin: 0px 13px;
+    }
+    li h5#monday {
+          margin: 0px 13px;
+    }
+  }
+    .woah h3 {
+      border-left: gray solid 1px;
+      text-align: center;
+      margin: -7px auto;
+      padding: 16px;
+      font-size: 1.5em;
+      font-weight: lighter;
+    }
+    .sharing ul {
+      list-style-type: none;
+      display: flex;
+      li {
+        margin: 0px 56px;
+      }
+    }
+  }
