@@ -112,22 +112,42 @@ aside {
     font-size: 1em; }
 
 h1 {
+  font-size: 1.8em;
   text-align: center; }
 
 footer {
   font-family: 'Rubik', sans-serif;
   width: 100%;
   display: inline-block;
-  list-style-type: none; }
-  footer .posts {
-    text-align: center; }
+  list-style-type: none;
+  margin: 0 13px;
+  background-color: #134299;
+  color: #FFF;
+  /*.posts {
+    text-align: center;
+  }*/ }
   footer .bottom-images {
     display: inline-flex;
-    margin: 0 188px; }
-  footer .bottom-text {
+    margin: 0px 230px; }
+  footer .bottom-text ul {
     list-style-type: none;
-    display: inline-flex; }
-  footer .footer-text-left {
-    list-style-type: none; }
-  footer .footer-text-right {
-    list-style-type: none; }
+    display: inline-flex;
+    margin: 0 225px; }
+    footer .bottom-text ul li {
+      width: 180px;
+      margin: 0px 9px 0px -9px; }
+  footer .footer-text-left ul {
+    list-style-type: none;
+    display: inline-flex;
+    float: left; }
+    footer .footer-text-left ul li {
+      margin: 0px 14px -16px 0px; }
+    footer .footer-text-left ul li img {
+      margin: -45px 0 0 0px; }
+  footer .footer-text-right ul {
+    list-style-type: none;
+    display: flex;
+    float: right; }
+    footer .footer-text-right ul li {
+      margin: 0px 7px 0 0px;
+      border-right: 2px; }
