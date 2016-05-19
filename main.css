@@ -110,3 +110,24 @@ aside {
   aside #side-header h5 {
     margin: 0 auto;
     font-size: 1em; }
+
+h1 {
+  text-align: center; }
+
+footer {
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  display: inline-block;
+  list-style-type: none; }
+  footer .posts {
+    text-align: center; }
+  footer .bottom-images {
+    display: inline-flex;
+    margin: 0 188px; }
+  footer .bottom-text {
+    list-style-type: none;
+    display: inline-flex; }
+  footer .footer-text-left {
+    list-style-type: none; }
+  footer .footer-text-right {
+    list-style-type: none; }
